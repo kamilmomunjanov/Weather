@@ -5,7 +5,7 @@ import Middle from "./Middle";
 const WeatherCurrentDate = ({weather, temp, setTemp}) => {
 
     const toDate = (date) => {
-        return new Intl.DateTimeFormat('ru-Ru', {
+        return new Intl.DateTimeFormat('ruDark-Ru', {
             day:'2-digit',
             month:'long',
             year:'numeric',
